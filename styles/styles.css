@@ -115,6 +115,7 @@ body {
     width: 130px;
     border-radius: 50px;
     color: white;
+    border: none;
 }
 
 .btn-download-app {
@@ -132,8 +133,8 @@ body {
 
 
 
-@media screen and (max-width:576px) {
+/* @media screen and (max-width:576px) {
     .nav {
         visibility: hidden;
     }
-}
+} */

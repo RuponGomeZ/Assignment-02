@@ -43,6 +43,12 @@ body {
     font-size: 1.6rem;
 }
 
+.font-Miama {
+    font-family: 'Miama', sans-serif;
+    font-size: 6rem;
+    font-weight: 300;
+}
+
 .title>h3 {
     margin-top: 0;
 }
@@ -67,8 +73,17 @@ body {
     font-size: 4em;
 }
 
+.description {
+    font-size: 0.8rem;
+    opacity: 50%;
+}
+
 .banner {
     display: flex;
+}
+
+.img-with-dumble {
+    padding-left: 160%;
 }
 
 .card {
@@ -76,8 +91,6 @@ body {
     width: 180px;
     height: 100px;
     border-radius: 5px;
-
-
 }
 
 .card-texts {
@@ -90,13 +103,13 @@ body {
 .card-1 {
     position: relative;
     top: -58%;
-    left: 60%;
+    left: 230%;
 }
 
 .card-2 {
     position: relative;
     top: -35%;
-    right: 20%;
+    right: -140%;
 }
 
 .circle {
@@ -131,11 +144,58 @@ body {
     color: white;
 }
 
+/* Change your habit */
+.change-your-habits {
+    text-align: center;
+    margin-top: 0;
+}
 
+.section-title {
+    font-size: 1rem;
+}
 
+.image-circle {
+    border-radius: 50%;
+}
 
+.img-card {
+    padding-top: 80px;
+    text-align: center;
+}
 
+.image-cards-section {
+    gap: 50px;
+}
 
+.img-resize {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.btn-join-now {
+    background-color: #E6533C;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 120px;
+    height: 30px;
+    /* align-items: center; */
+    /* justify-content: center;
+    text-align: center;
+    gap: 20px; */
+}
+
+.run-extra-section {
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 150px;
+
+    /* justify-content: flex-end; */
+    align-items: center;
+    background-color: #222222;
+    /* width: 900px; */
+}
 
 @media screen and (max-width:576px) {
     .nav {
@@ -164,12 +224,23 @@ body {
     }
 
     .card-1 {
-        top: -550px;
-        right: 60px;
+        top: -520px;
+        left: 250px;
     }
 
     .card-2 {
-        top: -440px;
+        top: -290px;
         left: 10px;
+    }
+
+    /* Change  your Habit section */
+
+    .image-cards-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .img-with-dumble {
+        padding-left: 10%;
     }
 }

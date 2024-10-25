@@ -34,6 +34,10 @@ body {
     padding-left: 10px;
 }
 
+.menu-icon {
+    visibility: hidden;
+}
+
 .title {
     font-weight: 800;
     font-size: 1.6rem;
@@ -133,8 +137,39 @@ body {
 
 
 
-/* @media screen and (max-width:576px) {
+@media screen and (max-width:576px) {
     .nav {
         visibility: hidden;
+        /* background-image: url('/images/menu.png'); */
     }
-} */
+
+    .menu-icon {
+        visibility: visible;
+        position: relative;
+        right: -80%;
+        top: -50%;
+    }
+
+    .btn-menu {
+        background-color: #E6533C;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+        height: 25px;
+        width: 50px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .card-1 {
+        top: -550px;
+        right: 60px;
+    }
+
+    .card-2 {
+        top: -440px;
+        left: 10px;
+    }
+}

@@ -286,6 +286,83 @@ th {
     margin-top: 120px;
 }
 
+.team-container {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.team-card-1 {
+    background-image: url('/images/trainer1.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 270px;
+    opacity: 80%;
+    border-radius: 18px;
+    justify-content: flex-end;
+}
+
+.team-card-2 {
+    background-image: url('/images/trainer2.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 270px;
+    opacity: 80%;
+    border-radius: 18px;
+    justify-content: flex-end;
+}
+
+.team-card-3 {
+    background-image: url('/images/trainer3.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 270px;
+    opacity: 80%;
+    border-radius: 18px;
+    justify-content: flex-end;
+}
+
+.team-card-4 {
+    background-image: url('/images/trainer4.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 270px;
+    opacity: 80%;
+    border-radius: 18px;
+    justify-content: flex-end;
+}
+
+.team-card-5 {
+    background-image: url('/images/trainer5.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 270px;
+    opacity: 80%;
+    border-radius: 18px;
+    justify-content: flex-end;
+}
+
+.team-card-6 {
+    background-image: url('/images/trainer6.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 270px;
+    opacity: 80%;
+    border-radius: 18px;
+    justify-content: flex-end;
+}
+
+
+
+.team-card-texts {
+    position: relative;
+    top: 180px;
+    left: 20px;
+
+}
+
+
 /* Responsive */
 @media screen and (max-width:576px) {
     .nav {
@@ -323,6 +400,7 @@ th {
         left: 10px;
     }
 
+
     /* Change  your Habit section */
 
     .image-cards-section {
@@ -359,4 +437,13 @@ th {
         border-radius: 5px; */
         width: 90%;
     }
+
+    /* Meet our team */
+
+    .team-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
 }

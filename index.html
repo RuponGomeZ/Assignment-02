@@ -120,7 +120,7 @@
         <p class="description">We believe fitness should be accessible to everyone, everywhere, regardless of income or
             access to a gym.</p>
     </div>
-    <div class="caclulator-container">
+    <div class="caclulator-container flex">
         <div class="calculator-chart-title">
             <h1 class="title">BMI Calculator Chart</h1>
             <div class="table">
@@ -148,7 +148,31 @@
                 </table>
             </div>
         </div>
+        <div>
+            <h1 class="title">Calculate Your BMI </h1>
+            <p class="description">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                or access to a gym. </p>
+            <form action="">
+                <div class="input-field">
+                    <input class="input-field-box" placeholder="Height/cm" type="text">
+                    <input class="input-field-box" placeholder="Weight/kg" type="text">
+                    <input class="input-field-box" placeholder="Age" type="text">
+                    <input class="input-field-box" list="gender-options" id="gender" name="gender" placeholder="Sex">
+
+                    <datalist id="gender-options">
+                        <option value="Male">
+                        <option value="Female">
+                    </datalist>
+                </div>
+                <label for="activity"></label>
+                <select name="activity" id="activity">
+                    <option value="activity">Select an activity factor</option>
+            </form>
+        </div>
     </div>
+    <button>Calculate</button>
+
+
 </body>
 
 </html>

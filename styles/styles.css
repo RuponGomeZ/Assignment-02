@@ -259,8 +259,34 @@ th {
     padding: 12px;
     border-radius: 5px;
     width: 93%;
+    background-color: #FFFFFF1A;
+    color: white;
+    opacity: 90%;
 }
 
+.btn-calculate {
+    background-color: #E6533C;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+
+}
+
+.btn-calculate-container {
+    padding-top: 20px;
+}
+
+
+/* Meet our team section */
+
+.meet-team-title {
+    text-align: center;
+    margin-top: 120px;
+}
+
+/* Responsive */
 @media screen and (max-width:576px) {
     .nav {
         visibility: hidden;
@@ -315,4 +341,22 @@ th {
         width: 100%;
     }
 
+    .caclulator-container {
+        flex-direction: column;
+        padding-left: 20px;
+
+    }
+
+    .input-field-box {
+        width: 150px;
+    }
+
+    #activity {
+        flex-direction: column;
+
+        /* margin-top: 20px;
+        padding: 12px;
+        border-radius: 5px; */
+        width: 90%;
+    }
 }
